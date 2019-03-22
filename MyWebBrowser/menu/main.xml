@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="검색 사이트">
+        <menu
+        >
+            <item android:title="조선게임" android:id="@+id/action_chosun"/>
+            <item android:title="네이버" android:id="@+id/action_naver"/>
+            <item android:title="구글" android:id="@+id/action_google"/>
+            <item android:title="다음" android:id="@+id/action_daum"/>
+        </menu>
+    </item>
+    <item android:title="개발자 정보">
+        <menu
+        >
+            <item android:title="전화하기" android:id="@+id/action_call"/>
+            <item android:title="문자보내기" android:id="@+id/action_send_text"/>
+            <item android:title="이메일 보내기" android:id="@+id/action_email"/>
+        </menu>
+    </item>
+    <item android:title="Home" android:id="@+id/action_home" android:icon="@drawable/ic_home_black_24dp"
+          app:showAsAction="always"/>
+    <item android:title="즐겨찾기" android:id="@+id/action_favorit" app:showAsAction="always"
+          android:icon="@drawable/ic_star_border_black_24dp">
+        <menu>
+            <item android:title="즐겨찾기 추가" android:id="@+id/favorit_add"/>
+        </menu>
+    </item>
+    <item android:title="검색" android:id="@+id/action_search" android:icon="@drawable/ic_search_black_24dp"
+          app:showAsAction="always"/>
+</menu>
